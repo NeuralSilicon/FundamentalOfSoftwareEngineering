@@ -5,13 +5,13 @@
 
 **Model Components** reside inside 
 
-**Team Members:**
+**Contributors:**
 
-Ian Cooper
+Ian Cooper: Architect, designer, and engineer
 
-Sayra Rodriguez
+Sayra Rodriguez: Engineer
 
-Jhaelon D Edwards Smith
+Jhaelon D Edwards Smith: Engineer
 
 
 
