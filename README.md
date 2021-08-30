@@ -1,7 +1,7 @@
 # Project
 
-Introducing **Password**. 
-...
+Introducing **Rezy**. 
+
 
 **Features**
 ------------
