@@ -1,7 +1,7 @@
 # Project
 
 Introducing **Rezy**. 
-Revolutionizing reservation through the power of iOS and Google Cloud. Instantly, find restaurants nearby, reserve, and dine in. Rezy takes advantage of Google Cloud in order to provide users the best possible service at no charge. Rezy will be available across United States and soon Canada. 
+Revolutionizing reservation through the power of iOS and Google Cloud. Instantly, find restaurants nearby, reserve, and dine in. Rezy takes advantage of Google RealTime Database that provide users the best possible service. *Rezy is free to use and will be available across United States and soon Canada.
 
 *Limited time: your first meal’s on us. ;)
 
