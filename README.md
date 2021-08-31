@@ -14,7 +14,7 @@ Revolutionizing reservation through the power of iOS and Google Cloud. Instantly
 **Installation**
 ---------------
 
-Provided Handbook to fully understand the underlying infrastructure.
+Provided Handbook to fully understand the underlying infrastructure. (Subject to change)
 
 **Sources**
 -----------
