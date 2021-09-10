@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Availability" representedClassName="Availability" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="dateUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="dinerUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Diner" representedClassName="Diner" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="dinerUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reviews" optional="YES" attributeType="String"/>
+        <attribute name="table" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES">
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="img" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Time" representedClassName="Time" syncable="YES">
+        <attribute name="dateUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="dinerUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="reservationsUUID" optional="YES" attributeType="String"/>
+        <attribute name="table" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="timeUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Availability" positionX="-54" positionY="18" width="128" height="74"/>
+        <element name="Diner" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Food" positionX="-45" positionY="54" width="128" height="89"/>
+        <element name="Time" positionX="-36" positionY="36" width="128" height="119"/>
+    </elements>
+</model>

@@ -1,0 +1,58 @@
+[
+    {
+        "name": "1",
+        "address": "1290 Avenue, New York City",
+        "url":"",
+        "table":"233345566788",
+        "reviews":"This clubby steakhouse and bistro, with both indoor and outdoor space, is a breath of fresh air in the West Village. John McDonald (of Lure Fishbar) brought in star designer Serge Becker to imagine a warm space to complement the nourishing food: steak tartare that melts in your mouth, roasted Dover sole, and adult's kid pasta (it's made with a gourmet butter sauce).  — Jacqui Gifford, Editor in Chief"
+    },
+    {
+        "name": "2",
+        "address": "E 1st Street, New York City",
+        "url":"",
+        "table":"223344556788",
+        "reviews":"Sona is a beautiful addition to the New York restaurant scene — a fine-dining restaurant that celebrates Indian cuisine from multiple regions with sharable, healthy plates and gorgeous cocktails. Chef Hari Nayak has created a brilliant menu (order the rock shrimp koliwada, crab puri and caviar, and Floyd's Goan fish curry, with a side of the lamb biryani) and an even more brilliant atmosphere — come ready to listen to music and do some people-watching. Jacqui Gifford, Editor in Chief"
+    },
+    {
+        "name": "3",
+        "address": "69 7th Ave, New York City",
+        "url":"",
+        "table":"222334456788",
+        "reviews":"I happened to end up at Estela for the first time just yesterday. If you were like me and hadn't been before, you may recognize the simply dressed endives of the restaurant's cookbook cover — which, I'll admit, I didn't quite understand the simplicity of. Because of this, my Estela experience was more than just a great meal out in Manhattan. It surprised me, checked my ego, and broadened my senses. I highly recommend the ricotta dumplings with mushrooms, the fried arroz negro with squid, and the oysters with nori. I haven't had such delicious, inspiring dishes in years. Kendall Cornish, Ecommerce Editor"
+    },
+    {
+        "name": "4",
+        "address": "150 E 50th St Between Lexington & 3rd Avenue, New York City",
+        "url":"",
+        "table":"222334456788",
+        "reviews":"The iconic cocktail den Flatiron Lounge, which closed in December 2018 after 15 years of bar brilliance, is one heck of a hard act to follow. Thankfully, the cheekily named mezcal and tequila drinks at this newly opened spot in the same 19th Street space are definitely up to the job. So too is the faultless cooking of chef Henry Zamora, a California native whose ceviches, tacos, and platos like pork ribs in salsa verde are proof that you really can find killer Mexican food in New York if you know where to look. It may be taking the reins from a speakeasy, but Tacos Güey likely won't stay a secret for long. Paul Brady, Articles Editor"
+    },
+    {
+        "name": "5",
+        "address": "55 E 54th St, New York City",
+        "url":"",
+        "table":"222334456788",
+        "reviews":"I recently got my first sandwich from this beloved Carroll Gardens shop and had one of those true-love moments — it was as though we had met long ago, as though the place was an old friend who had been in my life as long as I could remember. I'm not a sentimental person, but the sandwich was that good. And as someone who is trying to eat less meat, I appreciate the wealth of veggie options: basically every meat-y sandwich has a plant-based counterpart. I ordered the Vegitalian (roasted butternut squash, mozzarella, pickle-y relish-y giardiniera-like hoagie spread) and didn't miss a thing. Hannah Walhout, Associate Editor"
+    },
+    {
+        "name": "6",
+        "address": "196 Spring St Soho, New York City",
+        "url":"",
+        "table":"222334456788",
+        "reviews": "The McKittrick Hotel, home of Sleep No More, has long dazzled visitors with over-the-top performances and parties. While I am a sucker for the variety shows like Speakeasy Magick —the must-see close-up magic show that re-premieres on July 23 — I have found myself coming back time and again for Gallow Green. The rooftop bar has top-notch cocktails and bites, and the decor transports you to a fantastical world not unlike Narnia through the wardrobe, but this is a rooftop in Chelsea. (It even becomes a log cabin in a pine forest in the winter!) And while Gallow Green offers a spectacle, the vibe is always approachable and surprisingly low-key. It's good for every occasion. Scott Bay, Assistant Editor"
+    },
+    {
+        "name": "7",
+        "address": "65 7th Ave S at Bleecker Street Pizza, New York City",
+        "url":"",
+        "table":"222334456788",
+        "reviews":"Despite having done a lot of eating at home over the past year, I've been drawn to eating out at restaurants that feel, well, like home. That's the feeling you get at Pisticci, one of my Morningside Heights neighborhood favorites. The service is always friendly and the dining room has cozy, friend's-living-room vibes (though it's pretty hard to resist the airy outdoor dining setup). They've recently added menu options like plant-based meatballs and vegan bolognese alongside the more traditional offerings of mussels and skirt steak, so there's really something for everyone, including that friend (me) who wants to start dinner with a Spicy Spritz (mango chili vodka, peach nectar, Prosecco). Skye Senterfeit, Photo Editor"
+    },
+    {
+        "name": "8",
+        "address": "3 Greenwich Ave, New York City",
+        "url":"",
+        "table":"222334456788",
+        "reviews":"I love high-end sushi as much as the next person, but the carbon footprint of flying fish in from Japan every day seems excessive. Times they are a-changing: Increasingly, we're needing to realize that what we eat hugely effects the planet. This small, unassuming sushi restaurant that opened in late 2020 uses domestic, locally caught or farmed seafood with minimal environmental impact. The menu consists of inventive takes on traditional Japanese sushi (the Yoni's breakfast roll is a play on a classic bagel and lox, hold the bagel), but every single piece of fish — whether it's the sweet scallop from Montauk or the meaty eel from Maine — is amazingly fresh, and you can feel good about eating it, too. As a bonus, the wine and sake program and the vibe-y playlist are equally on point. Karen Chen, Editorial Producer"
+    }
+]

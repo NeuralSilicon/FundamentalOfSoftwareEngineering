@@ -1,0 +1,6 @@
+module Pods_Rezy {
+  umbrella header "Pods-Rezy-umbrella.h"
+
+  export *
+  module * { export * }
+}

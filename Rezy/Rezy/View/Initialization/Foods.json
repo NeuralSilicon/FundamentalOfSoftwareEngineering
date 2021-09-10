@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Burger",
+        "price": "$3.99",
+        "img":"1",
+        "description":"A quarter-pound (90 percent lean) cheeseburger served on a store-bought bun and topped with one slice of American cheese and a tablespoon of ketchup weighs in at 455 calories."
+    },
+    {
+        "name": "Burger",
+        "price": "$7.99",
+        "img":"2",
+        "description":"A quarter-pound (90 percent lean) cheeseburger served on a store-bought bun and topped with one slice of American cheese and a tablespoon of ketchup weighs in at 455 calories."
+    },
+    {
+        "name": "Cheese Burger",
+        "price": "$4.99",
+        "img":"3",
+        "description":"A quarter-pound (90 percent lean) cheeseburger served on a store-bought bun and topped with one slice of American cheese and a tablespoon of ketchup weighs in at 455 calories."
+    },
+    {
+        "name": "Double Burger",
+        "price": "$5.00",
+        "img":"4",
+        "description":"2333455A quarter-pound (90 percent lean) cheeseburger served on a store-bought bun and topped with one slice of American cheese and a tablespoon of ketchup weighs in at 455 calories."
+    },
+    {
+        "name": "Salad",
+        "price": "$10.00",
+        "img":"5",
+        "description":"Main-dish tossed salad with healthy ingredients adds up to about 235 salad calories. A couple of tablespoons of Italian salad dressing adds another 30 or so, but a creamy Caesar can drizzle on more than 150 extra calories."
+    },
+    {
+        "name": "Eggs",
+        "price": "$4.99",
+        "img":"6",
+        "description":"An average serving size of two eggs contains only 148 calories or 620 kilojoules – roughly the same as two apples."
+    },
+    {
+        "name": "Burger and Fries",
+        "price": "$4.99",
+        "img":"7",
+        "description":"A quarter-pound (90 percent lean) cheeseburger served on a store-bought bun and topped with one slice of American cheese and a tablespoon of ketchup weighs in at 455 calories."
+    },
+    {
+        "name": "Pancake",
+        "price": "$4.99",
+        "img":"8",
+        "description":"158 calories; protein 4.5g; carbohydrates 21.7g; fat 5.9g; cholesterol 37.7mg; sodium 503.6mg."
+    }
+]

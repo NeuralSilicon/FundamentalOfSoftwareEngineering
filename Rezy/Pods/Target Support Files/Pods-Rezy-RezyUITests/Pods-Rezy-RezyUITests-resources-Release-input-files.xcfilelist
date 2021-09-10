@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-Rezy-RezyUITests/Pods-Rezy-RezyUITests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FacebookSDKStrings.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAnonymousAuthUI/FirebaseAnonymousAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuthUI/FirebaseAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseEmailAuthUI/FirebaseEmailAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFacebookAuthUI/FirebaseFacebookAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseGoogleAuthUI/FirebaseGoogleAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseOAuthUI/FirebaseOAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebasePhoneAuthUI/FirebasePhoneAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle
