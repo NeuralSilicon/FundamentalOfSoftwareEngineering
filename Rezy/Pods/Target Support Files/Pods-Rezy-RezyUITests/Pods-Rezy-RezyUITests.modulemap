@@ -1,0 +1,6 @@
+module Pods_Rezy_RezyUITests {
+  umbrella header "Pods-Rezy-RezyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

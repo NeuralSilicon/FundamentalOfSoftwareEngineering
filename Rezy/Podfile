@@ -1,0 +1,18 @@
+platform :ios, '14.0'
+
+target 'Rezy' do
+  pod 'Firebase/Core', :inhibit_warnings => true
+  pod 'Firebase/Database', :inhibit_warnings => true
+  pod 'Firebase/Auth', :inhibit_warnings => true
+  pod 'Firebase/Storage'
+  pod "SkeletonView"
+  pod 'CryptoSwift', '~> 1.4.1'
+
+  target 'RezyTests' do
+    inherit! :search_paths
+  end
+
+  target 'RezyUITests' do
+  end
+
+end
