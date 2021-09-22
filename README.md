@@ -5,6 +5,8 @@ Revolutionizing reservation through the power of iOS and Google Cloud. Instantly
 
 *Limited time: your first meal’s on us. ;)
 
+![Rezy](https://user-images.githubusercontent.com/35051980/134271084-d91e70df-9532-46b2-a56f-447e5a5facff.gif)
+
 **Features**
 ------------
 - Instant search
