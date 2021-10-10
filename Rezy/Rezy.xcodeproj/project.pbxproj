@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581424FB27135764007943E8 /* BonusPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581424FA27135764007943E8 /* BonusPage.swift */; };
 		5857097E26E31945001B6400 /* iPad Pro 12.9in – 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857097D26E31945001B6400 /* iPad Pro 12.9in – 2@2x.png */; };
 		589224B926E05BB2003F7A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589224B826E05BB2003F7A24 /* AppDelegate.swift */; };
 		589224C226E05BB2003F7A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589224C126E05BB2003F7A24 /* Assets.xcassets */; };
@@ -128,6 +129,7 @@
 		0A1FF2E57608C89812C8795A /* libPods-Rezy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rezy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1568EE3721C0E0AA48E0B382 /* Pods-Rezy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rezy.release.xcconfig"; path = "Target Support Files/Pods-Rezy/Pods-Rezy.release.xcconfig"; sourceTree = "<group>"; };
 		41DE925E74D5CA0785233352 /* Pods-RezyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RezyTests.release.xcconfig"; path = "Target Support Files/Pods-RezyTests/Pods-RezyTests.release.xcconfig"; sourceTree = "<group>"; };
+		581424FA27135764007943E8 /* BonusPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusPage.swift; sourceTree = "<group>"; };
 		5832E6EC26E0A77600CDDE7F /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5838141326E0A8170076D836 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5857097D26E31945001B6400 /* iPad Pro 12.9in – 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro 12.9in – 2@2x.png"; sourceTree = "<group>"; };
@@ -569,6 +571,7 @@
 			isa = PBXGroup;
 			children = (
 				58B58C3E26E533FB00D0E858 /* BonusPointsView.swift */,
+				581424FA27135764007943E8 /* BonusPage.swift */,
 			);
 			path = BonusPoints;
 			sourceTree = "<group>";
@@ -1076,6 +1079,7 @@
 				5892253826E06373003F7A24 /* UpdateInfoVC.swift in Sources */,
 				58B6E75A26E58AE300AA1D51 /* FoodsView.swift in Sources */,
 				5892253926E06373003F7A24 /* UpdateInfoVCConfig.swift in Sources */,
+				581424FB27135764007943E8 /* BonusPage.swift in Sources */,
 				58B6E76026E58F0200AA1D51 /* DinerReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
