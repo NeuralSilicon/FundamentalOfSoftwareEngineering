@@ -9,6 +9,7 @@ struct Reservation {
     var timeUUID: String = ""
     var dateUUID: String = ""
     var fullname: String = ""
+    var email:String = ""
     var phoneNumber: String = ""
     var table:String = ""
     var numberOfGuest: Int = 0
@@ -28,6 +29,7 @@ struct Reservation {
         timeUUID = dictionary["timeUUID"] as! String
         dateUUID = dictionary["dateUUID"] as! String
         fullname = dictionary["fullname"] as! String
+        email = dictionary["email"] as! String
         phoneNumber = dictionary["phoneNumber"] as! String
         table = dictionary["table"] as! String
         numberOfGuest = dictionary["numberOfGuest"] as! Int
@@ -45,6 +47,7 @@ struct Reservation {
         let timeUUID = dictionary["timeUUID"] as? String,
         let dateUUID = dictionary["dateUUID"] as? String,
         let fullname = dictionary["fullname"] as? String,
+        let email = dictionary["email"] as? String,
         let phoneNumber = dictionary["phoneNumber"] as? String,
         let table = dictionary["table"] as? String,
         let numberOfGuest = dictionary["numberOfGuest"] as? Int,
@@ -61,6 +64,7 @@ struct Reservation {
         self.timeUUID = timeUUID
         self.dateUUID = dateUUID
         self.fullname = fullname
+        self.email = email
         self.phoneNumber = phoneNumber
         self.table = table
         self.numberOfGuest = numberOfGuest
@@ -75,7 +79,7 @@ struct Reservation {
                 "reservationUUID": reservationUUID,
                 "dinerUUID": dinerUUID,
                 "timeUUID": timeUUID,"dateUUID": dateUUID,
-                "fullname":fullname,"phoneNumber":phoneNumber,
+                "fullname":fullname, "email":email,"phoneNumber":phoneNumber,
                 "table": table,
                 "numberOfGuest":numberOfGuest,"noShowCharge":noShowCharge,
                 "date":date,"time":time
