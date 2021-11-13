@@ -9,6 +9,7 @@ struct Client {
     var fullname:String = ""
     var points: String = "10"
     var preferredPayment: String = "Credit Card"
+    var preferredDiner: String = "1"
     
     init() {}
 
@@ -19,6 +20,7 @@ struct Client {
     fullname = dictionary["fullname"] as! String
     points = dictionary["points"] as! String
     preferredPayment = dictionary["preferredPayment"] as! String
+    preferredDiner = dictionary["preferredDiner"] as! String
   }
 
     init?(snapshot: DataSnapshot) {
@@ -29,7 +31,8 @@ struct Client {
         let password = value["password"] as? String,
         let fullname = value["fullname"] as? String,
         let points = value["points"] as? String,
-        let preferredPayment = value["preferredPayment"] as? String
+        let preferredPayment = value["preferredPayment"] as? String,
+        let preferredDiner = value["preferredDiner"] as? String
         else {
         return
       }
@@ -39,13 +42,15 @@ struct Client {
         self.fullname = fullname
         self.points = points
         self.preferredPayment = preferredPayment
+        self.preferredDiner = preferredDiner
     }
     
   func asPropertyList() -> [String: Any] {
     return ["uuid": uuid,
             "username": username, "password": password,
             "fullname": fullname,
-            "points": points, "preferredPayment": preferredPayment
+            "points": points, "preferredPayment": preferredPayment,
+            "preferredDiner": preferredDiner
     ]
   }
 
