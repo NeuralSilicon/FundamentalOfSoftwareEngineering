@@ -1,3 +1,4 @@
+//sayra (; 
 
 import UIKit
 import Firebase
@@ -14,8 +15,9 @@ extension WrapUp{
         guard let parent = self.parentPage as? ReserveVC, let model = parent.model else{
             return
         }
-                
-        guard let time = model.time.filter({$0.time == model.reservation.time.hour && $0.dateUUID == UUID(uuidString: model.reservation.dateUUID)}).first else{
+        //confirm reservation time
+        // UUID generates uique valuee to assure date & timeare available
+        guard let time = model.time.filter({$0.time == model.reservation.time.hour && $0.dateUUID == UUID(uuidString: model.reservation.dateUUID)}).first else{ 
             print("failed to load the time")
             return
         }
@@ -25,7 +27,7 @@ extension WrapUp{
             var table = model.reservation.table.stringToDict()
             
             for i in tab{
-                if table[String(i)] != nil && table[String(i), default: 0] > 0{
+                if table[String(i)] != nil && table[String(i), default: 0] > 0{ //nil - absence of valid object
                     table[String(i), default:0] -= 1
                 }else{
                     str.append(i)
@@ -35,7 +37,7 @@ extension WrapUp{
             time.table = str
         }
       
-        if time.reservationsUUID == nil{
+        if time.reservationsUUID == nil{ //if reseration is not available generata unique 
             time.reservationsUUID = ""
         }
         model.reservation.reservationUUID = UUID.init().uuidString
@@ -57,7 +59,7 @@ extension WrapUp{
         }else{
             let reservation = ReservationHandler(reservation: model.reservation)
             reservation.delegate = parent
-            reservation.SaveReservation()
+            reservation.SaveReservation() 
         }
     }
 }
@@ -65,7 +67,7 @@ extension WrapUp{
 extension ReserveVC:ReservationHandlerDelegate{
     func finishedUp() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-            print("Done!")
+            print("Done!") //let user know reservation complete
             self.dismiss(animated: true, completion: nil)
         }
     }
